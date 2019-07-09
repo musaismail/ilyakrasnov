@@ -63,6 +63,8 @@ kramdown:
 
 highlighter: rouge  
 
+plugins:
+  - jekyll-gist
 # Include in processing (e.g. Netlify directives)
 # Uncomment before use
 
