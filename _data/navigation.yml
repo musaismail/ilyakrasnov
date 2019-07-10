@@ -1,6 +1,6 @@
 # specify main menu items here
 
-- text: Home
+- text: Blog
   url: /
 - text: About
   url: /about
