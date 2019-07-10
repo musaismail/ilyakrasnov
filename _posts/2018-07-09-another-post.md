@@ -46,6 +46,7 @@ categories: misc
 
 
 תוצאה:
+
 |Competitor| Year | Points| rank|
 |---|---|---|--|
 | Donna | 2016|100|1|
