@@ -5,7 +5,7 @@ author: shiran
 date: '2018-07-03 12:00:00'
 intro_paragraph: |
   והפעם- בואו נדבר על מציאת התו %.
-categories: ''
+categories: MySQL
 ---
 **הבעיה שלנו היא ש...**
 
