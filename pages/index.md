@@ -1,12 +1,13 @@
 ---
 layout: home
-title: Welcome
+title: בלוג
 permalink: /
 section: home
-intro_paragraph: >
-  [Jekyll Netlify Boilerplate](https://github.com/danurbanowicz/jekyll-netlify-boilerplate)
-  provides the basics to get a fast, static website deployed on Netlify.
-  Features [Netlify CMS](https://www.netlifycms.org), responsive
-  CSS Grid layout, sample
-  pages and posts, and a continuous deployment workflow.
+intro_paragraph: >-
+  כל הפוסטים הקרובים יוקדשו לטיפים לשימוש ב-MySQL. בעצם הפוסטים בנויים באופן זהה
+  כך שבכל פוסט אציג פתרון פשוט לבעיה בה נתקלתי במהלך עבודתי, אסביר ואצרף דוגמה.
+  לבסוף אצרף טיפ קטן-גדול לחיים טובים יותר :)
+
+  תהנו!
 ---
+
