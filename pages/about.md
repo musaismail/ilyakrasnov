@@ -3,16 +3,15 @@ layout: page
 title: About
 permalink: /about
 section: about
-intro_paragraph: |
-  This is an example of a standard Jekyll page. You can edit it with Netlify
-  CMS, accessible at `/admin/index.html` or by editing `pages/about.md` in a text editor.
+intro_paragraph: |2
 ---
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+**על הבלוג**
 
-### A heading
+אף פעם לא תצליחו לתפוס אותי בלי עט ודף. לכל מקום שאני הולכת, במיוחד אם מדובר בשיעורים, כנסים מקצועיים או מיטאפים, אני לוקחת עט ומחברת קטנה בה אוכל לרשום דברים חדשים שלמדתי. כעת, החלטתי שהגיע הזמן לחלוק עם העולם רשמים מתחום ה-Data שמעניינים אותי. 
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+הבלוג שלי כפי שמיד תבחינו בנוי כטאפאס. טעימות קטנות, בלי הרבה מלל, כדי לתת טיפים להתמודדות עם בעיות שעלולות להיראות כמורכבות. ואם כבר לחלוק עם העולם אז למה לא לחתום בטיפ לחיים? 
 
-#### Another heading
+**כמה מילים עליי**
+שמי שירן את התחום של קריאת נתונים והסקת מסקנות התחלתי במסגרת השירות הצבאי כמאבחנת ולאחר מכן קצינה בכלא 4. כל יום נכנסו אלי חיילים לשיחות הם גילו טפח וכיסו טפחיים, ועליי הוטלה המשימה של להבין מתוך השתיקות, לקרוא בין השורות ולתרגם את המסקנות שלי למעשים. בעזרת ה׳ וברצון כנה להיטיב אני יכולה לומר שבשלב כלשהו בשירות הרגשתי שאני מצליחה. מצליחה לקרוא, מצליחה להבין ומצליחה לפצח.
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+מאז עברו שנים. השתחררתי, טסתי לעולם הגדול (טוב לא ממש...רק לאירופה) חזרתי אחרי חצי שנה של שליחות בגרמניה עם תיק מלא חוויות ומכרים חדשים היישר לספסל הלימודים, למדתי כלכלה לקחתי קורס אינטנסיבי בדאטה אנליסט 
