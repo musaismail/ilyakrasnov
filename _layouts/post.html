@@ -5,6 +5,9 @@ layout: default
 
 <h2>{{ page.title }}</h2>
 
+{% include page-intro.html %}
+
+
 <time datetime="{{ page.date }}">
   <small>
     <strong>{{ page.date | date_to_string }}</strong>
@@ -14,10 +17,8 @@ layout: default
   </small>
 </time>
 
+
 {{ content }}
-
-{% include page-intro.html %}
-
 
 <nav aria-label="Adjacent Posts">
   <ul>
