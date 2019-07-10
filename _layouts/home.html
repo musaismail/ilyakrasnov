@@ -3,9 +3,6 @@ layout: default
 ---
 
 <h2>{{ page.title }}</h2>
-
-  
-
   {% include page-intro.html %}
 
   {{ content }}
@@ -24,7 +21,7 @@ layout: default
             {% endif %} -->
           </small>
         </time>
-        {{ post.excerpt | strip_newlines | truncate: 180 }}
+        {{ post.excerpt | strip_newlines | truncate: 240 }}
       </li>
     {% endfor %}
   </ul>
