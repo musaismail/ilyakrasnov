@@ -31,7 +31,7 @@ categories: ''
 |'David'| 'Seller'|
 |'Aviv'| 'Teacher'|
 |'Pnina'| 'Programmer'|
-|'Shosh'|'Baker'
+|'Shosh'|'Baker' |
 
 
 הפקודות שנבצע:
