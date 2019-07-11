@@ -20,7 +20,7 @@ categories: ''
 **בואו ננסה את זה בפועל**
 
 הטבלה שלנו:  
-|name| occupation|
+|name|occupation|
 |---|---|
 |'Naama'| 'Teacher'|
 |'Yael'| 'Seller'|
@@ -29,9 +29,9 @@ categories: ''
 |'Sagit'| 'Programmer'|
 |'Noam'| 'Teacher'|
 |'David'| 'Seller'|
-|'Aviv'| 'Teacher'|
+|'Aviv'|'Teacher'|
 |'Pnina'| 'Programmer'|
-|'Shosh'|'Baker'
+|'Shosh'|'Baker'|
 
 
 הפקודות שנבצע:
