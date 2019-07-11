@@ -20,6 +20,7 @@ categories: ''
 **בואו ננסה את זה בפועל**
 
 הטבלה שלנו:  
+
 |name|occupation|
 |---|---|
 |'Naama'| 'Teacher'|
@@ -40,11 +41,14 @@ categories: ''
 
 תוצאה:
 
-|Programmer| Teacher| Seller| Backer|
+|Programmer| Teacher| Seller| Baker|
 |---|---|---|---|
 |'Bar'|'Aviv'|'David'v'Shosh'|
 |'Pnina'|'Naama'|'Efrat'|NULL|
 |'Sagit'|'Noam'|'Yael'|NULL|
+
+<br>
+
 
 
 נוצרה לנו טבלה חדשה המציגה את המקצועות כעמודות ואת שמות האנשים בשורות. ניתן לראות כי בכל אחד מהמקצועות ישנם 3 אנשים בתפקיד מלבד אופה. ולכן, בשורות שמתחת לשמה של האופה היחידה מופיע ```NULL```.
