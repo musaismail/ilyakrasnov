@@ -1,6 +1,6 @@
 ---
 layout: home
-title: בלוג
+title: Home
 permalink: /
 section: home
 intro_paragraph: ''
