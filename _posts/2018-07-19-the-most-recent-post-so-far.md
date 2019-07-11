@@ -1,9 +1,80 @@
 ---
 layout: post
-title: The most recent post so far
-author: john_doe
+title: שנרוויח
+author: shiran
 date: '2018-07-19 10:07:32'
-intro_paragraph: ''
-categories: misc
+intro_paragraph: |2
+   והפעם- בואו נדבר על אגרגציה על אגרגציה / אגרגצית ביניים.
+categories: ''
 ---
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborumo.
+
+***הבעיה שלנו היא ש...***
+
+לעיתים אנו מעוניינים לראות אגרגציה סופית בנוסף לארגציה קיימת. כלומר כאשר אנו משתמשים בפונקציית אגרגציה כלשהי כמו לדוגמה ```sum()```, נרצה שתוצג גם אגרגציה סופית של כל השורות, כלומר סכימה סופית של עמודת ה-```sum```.
+
+***הטיפ שלי***
+
+להשתמש בפקודה ```with rollup``` אותה כותבים לאחר פקודת ה-```group by```, כך תופיע שורה נוספת (בהתאם לעמודה עליה נעשה ```group by```), שתציג אגרגציה כוללת של כל השורות שמעליה. 
+
+{% gist db9675e06002bf7f686ba3b09c58f65f %}
+
+***בואו ננסה את זה בפועל***
+
+הטבלה שלנו:
+
+| City  | Year  |  Revenue |
+|---|---|---|
+| 'TEL AVIV'  | 2015  | 100000  |
+|  'TEL AVIV'  | 2016  |  150000 |
+| 'JERUSALEM'  | 2017  | 76500  |
+|  'EILAT' | 2015  |  20000 |
+|  'EILAT' |  2016 | 10500  |
+|  'EILAT' | 2017  | 5000  |
+
+
+***אפשרות אחת – אגרגציה על אגרגציה***
+
+הפקודות שנבצע:
+
+{% gist 65de4353baa5b639bda7d01f64e5c4d6 %}
+
+תוצאה:
+
+| city  | sum(revenues)|
+|---|---|
+|'EILAT' | '35500'|
+|' JERUSALEM'' | '76500'| 
+|'TEL AVIV ' | '250000'| 
+| NULL | '362000'| 
+
+
+סך הכל הרווחנו בכל הערים ובכל השנים 362,000 ש״ח.
+
+***אפשרות שניה – אגרגצית ביניים***
+
+הפקודות שנבצע:
+
+{% gist 5d8f65e2a4f35217fd2d3d39271bc75b %}
+
+תוצאה:
+
+| city  | year  |  sum(revenues) |
+|---|---|---|
+|'EILAT'|'2015'|'20000'|
+|'EILAT'|'2016'|'10500'|
+|'EILAT'|'2017'|'5000'|
+|'EILAT'|NULL|'35500'|
+|'JERUSALEM'|'2017'|'76500'|
+|'JERUSALEM'|NULL|'76500'|
+|'TEL AVIV'|'2015'|'100000'|
+|'TEL AVIV'|'2016'|'150000'|
+|'TEL AVIV'|NULL|'250000'|
+|NULL|NULL|'362000'|
+
+
+ניתן לראות סיכום עבור כל עיר בנפרד. כך שסך הכל הרווחנו בכל השנים 
+באילת 35,500 ש״ח, בירושלים 76,500 ש״ח, בתל אביב 250,000. 
+וסיכום עבור כל הערים יחד, סך הכל עבור כל הערים בכל השנים הרווחנו 362,000 ש״ח.
+ 
+והברכה שלי אליכם
+
