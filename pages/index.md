@@ -5,7 +5,7 @@ permalink: /
 section: home
 intro_paragraph: ''
 ---
-![](/assets/img/uploads/shiran.jpg){: .align-left}
+<img src="/assets/img/uploads/shiran.jpg" style="width: 250px">
 
 היי! שמי שירן, Data Analyst עם ניסיון בתחומים של Finance, Budget & HR. 
 
