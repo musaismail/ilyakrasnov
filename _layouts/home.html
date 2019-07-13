@@ -22,9 +22,12 @@ layout: default
           </small>
         </time>
 
-        {{ post.excerpt | strip_newlines | truncate: 180 }}
-        <!-- {{ post.intro_paragraph | truncate: 100 }} -->
-
+        <!-- {{ post.excerpt | strip_newlines | truncate: 180 }} -->
+        <p>
+            <em>
+              {{ post.intro_paragraph | truncate: 100 }}
+            </em>
+        </p>
       </li>
     {% endfor %}
   </ul>
