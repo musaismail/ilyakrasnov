@@ -5,6 +5,8 @@ permalink: /
 section: home
 intro_paragraph: ''
 ---
+![](/assets/img/uploads/shiran.jpg){: .align-left}
+
 היי! שמי שירן, Data Analyst עם ניסיון בתחומים של Finance, Budget & HR. 
 
 הבלוג שלי כפי שמיד תבחינו בנוי כטאפאס. טעימות קטנות, בלי הרבה מלל, כדי לתת טיפים להתמודדות עם בעיות שעלולות להיראות כמורכבות. 
