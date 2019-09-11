@@ -2,5 +2,7 @@
 
 - text: Home
   url: /
+- text: Talks
+  url: /talks
 - text: About
   url: /about
