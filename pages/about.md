@@ -18,4 +18,4 @@ intro_paragraph: ''
 מאז עברו שנים. השתחררתי, טסתי לעולם הגדול (טוב לא ממש...רק לאירופה) חזרתי אחרי חצי שנה של שליחות בגרמניה עם תיק מלא חוויות ומכרים חדשים היישר לספסל הלימודים באוניברסיטה העברית. למדתי כלכלה, הוספתי קורס מקצועי ב-Data Analysis, והנה אני פה לשירותכם...חפרתי מספיק, שנתחיל?
 
 ![](/assets/img/uploads/mama-tech-excel-workshop.jpg)
-![](/assets/img/uploads/data-presentation.jpg)
+![](/assets/img/uploads/data-presentation.jpeg)
