@@ -6,8 +6,8 @@ section: home
 intro_paragraph: ''
 ---
 <div>
-<img src="/assets/img/uploads/shiran.jpg" style="width: 250px; float: right;
-    margin-left: 20px;">
+<img src="/assets/img/uploads/shiran.jpg" style="width: 140px; float: right;
+    margin-left: 20px; border-radius: 50%">
 <p>
 היי! שמי שירן, Data Analyst עם ניסיון בתחומים של Finance, Budget & HR.
 
