@@ -6,19 +6,10 @@ section: home
 intro_paragraph: ''
 ---
 <div>
-<img src="/assets/img/uploads/shiran.jpg" style="width: 180px; float: right;
+<img src="/assets/img/uploads/essentialiving-zvknk8ny_r0-nsplash.jpgessentialiving-zvknk8ny_r0-unsplash.jpg" style="width: 180px; float: right;
     margin-left: 20px; border-radius: 50%">
-<p>
-<br>
-היי! שמי שירן, Data Analyst עם ניסיון והתמקצעות בתחום ה-Finance.
-<br>
-<br>
-אף פעם לא תצליחו לתפוס אותי בלי עט ודף. לכל מקום שאני הולכת, במיוחד אם מדובר בשיעורים, כנסים מקצועיים או מיטאפים, אני לוקחת עט ומחברת קטנה בה אוכל לרשום דברים חדשים שלמדתי. כעת, החלטתי שהגיע הזמן לחלוק עם העולם רשמים מתחום ה-Data שמעניינים אותי.
-<div>
-<img src="/assets/img/uploads/shiran.jpg" style="width: 180px; float: right;
-    margin-left: 20px; border-radius: 50%">
-<p>
-<br>
+
+
 היי! שמי שירן, Data Analyst עם ניסיון והתמקצעות בתחום ה-Finance.
 <br>
 <br>
