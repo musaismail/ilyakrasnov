@@ -22,7 +22,6 @@ intro_paragraph: ''
 תהנו!	
 </p>
 
-</div>
 
 
 
