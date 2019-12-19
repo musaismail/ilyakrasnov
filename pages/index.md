@@ -6,7 +6,7 @@ section: home
 intro_paragraph: ''
 ---
 <div>
-<img src="/assets/img/uploads/shiran.jpg" style="width: 180px; float: right;
+<img src="/assets/img/uploads/essentialiving-zvknk8ny_r0-nsplash.jpgessentialiving-zvknk8ny_r0-unsplash.jpg" style="width: 180px; float: right;
     margin-left: 20px; border-radius: 50%">
 <p>
 <br>
