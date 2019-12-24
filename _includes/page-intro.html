@@ -1,5 +1,0 @@
-{% if page.intro_paragraph and page.intro_paragraph != '' %}
-  <p class="intro" style="direction: rtl;">
-    {{ page.intro_paragraph | markdownify | remove: '<p>' | remove: '</p>' }}
-  </p>
-{% endif %}

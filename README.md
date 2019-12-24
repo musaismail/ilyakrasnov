@@ -1,84 +1,48 @@
-# Jekyll Netlify Boilerplate
+![preview Long Haul](/preview.jpg)
 
-*Note: Check out my [Eleventy Netlify Boilerplate](https://github.com/danurbanowicz/eleventy-netlify-boilerplate). It does pretty much the same as this project but uses the [Eleventy](https://www.11ty.io/) static site generator. It's fast, flexible and doesn't require Ruby.*
+Long Haul is a minimal jekyll theme built with SASS / GULP / BROWSERSYNC / AUTOPREFIXER and focuses on long form blog posts. It is meant to be used as a starting point for a jekyll blog/website.
 
-**A really simple Jekyll template for creating a fast, static website on Netlify with
-a continuous deployment workflow.**
+If you really enjoy Long Haul and want to give me credit somewhere on the internet send or tweet out your experience with Long Haul and tag me [@brianmaierjr](https://twitter.com/brianmaierjr).
 
-🔥 **This project is featured on Netlify's official [template showcase](http://templates.netlify.com/template/jekyll-with-netlify-cms-boilerplate/) and blog: [The top 10 Static Site Generators to watch in 2018](http://templates.netlify.com/template/jekyll-with-netlify-cms-boilerplate/)** 🔥
+#### [View Demo](http://brianmaierjr.com/long-haul)
 
-* Minimal styling, ready to make your own
-* Example blog posts, pages and contact form
-* Responsive CSS Grid layout with fallbacks for older browsers
-* Continuous Deployment workflow via Netlify and Github
-* Netlify CMS for managing content
-* Netlify Identity for authenticating users
-* Netlify Forms for processing your static HTML forms with reCAPTCHA
-* Optional Netlify `_redirects` and `_headers` files ready to use
-* Jekyll SASS pipeline
-* Minified HTML and CSS
+## Features
 
-Based on Netlify's [Jekyll + Netlify CMS](https://github.com/netlify-templates/jekyll-netlify-cms) starter template, head over there for more details on deployment and build settings or to get help with setting up Netlify.
+- Minimal, Type Focused Design
+- Built with GULP + SASS + BROWSERSYNC + AUTOPREFIXER
+- SVG Social Icons
+- Responsive Nav Menu
+- XML Feed for RSS Readers
+- Contact Form via Formspree
+- 5 Post Loop with excerpt on Home Page
+- Previous / Next Post Navigation
+- Estimated Reading Time for posts
+- Stylish Drop Cap on posts
+- A Better Type Scale for all devices
 
-For help with templates, local development and other Jekyll related stuff, check out the excellent [Jekyll Docs](https://jekyllrb.com/docs/home/).
+## Setup
 
-## [View Demo](https://jekyll-netlify-boilerplate.netlify.com/)
+1. [Install Jekyll](http://jekyllrb.com)
+2. Fork the [Long Haul repo](http://github.com/brianmaierjr/long-haul)
+3. Clone it
+4. [Install Bundler](http://bundler.io/)
+5. Run `bundle install`
+6. Install gulp dependencies by running `npm install`
+7. Run Jekyll and watch files by running `bundle exec gulp`
+8. Customize and watch the magic happen!
 
-## Performance
+## Site Settings
 
-You can test the demo site's TTFB (Time To First Byte) at [testmysite.io](https://testmysite.io/5b50abe51f12b74b81dd5442/jekyll-netlify-boilerplate.netlify.com)
+The main settings can be found inside the `_config.yml` file:
 
-## Getting started
+- **title:** title of your site
+- **description:** description of your site
+- **url:** your url
+- **paginate:** the amount of posts displayed on homepage
+- **navigation:** these are the links in the main site navigation
+- **social** diverse social media usernames (optional)
+- **google_analytics** Google Analytics key (optional)
 
-Simply click the deploy button to get your own copy of the repository deployed to Netlify:
+## License
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/danurbanowicz/jekyll-netlify-boilerplate&stack=cms)
-
-This will setup everything needed for running the CMS:
-
-* A new repository in your GitHub account with the code
-* Full Continuous Deployment to Netlify's global CDN network
-* Control users and access with Netlify Identity
-* Manage content with Netlify CMS
-
-### Setup authentication
-
-After deploying this project, Netlify Identity will add you as a CMS user and
-will email you an invite. It is not necessary to accept this invite if you wish
-to use an
-[OAuth provider](https://www.netlify.com/docs/identity/#external-provider-login)
-(e.g. Github) to manage authentication for your CMS.
-It is recommended to use this method of authentication as it removes the need
-for an email & password to log in to the CMS and is generally more secure. You
-will need to add an OAuth provider in your Netlify app settings under
-"Settings" > "Identity" > "External providers".
-
-Next, navigate to `/admin` on your site, choose your OAuth provider from the
-login box and you should then be logged into your CMS.
-
-Now you're all set, and you can start editing content!
-
-**Note:** if you switch the repo that was created to private, you'll need to regenerate your token,
-as the token generated using the deploy to Netlify button can only access public repositories. To
-regenerate your token, head to "Settings" in your Netlify site dashboard, go to the "Identity"
-section, then scroll to "Services" where you'll see an "Edit settings" button. Click that and you'll
-see a text link to "Generate access token in GitHub".
-
-## Local Development
-
-Clone this repository and run:
-
-```bash
-bundle install
-bundle exec jekyll server --watch
-```
-Jekyll will watch your project folder for changes.
-
-Now navigate to [localhost:4000](http://localhost:4000/) to preview the site, and
-[localhost:4000/admin](http://localhost:4000/admin) to log into the CMS.
-
-## Bug reports, feature requests, etc
-
-This is an ongoing project and I welcome contributions. Feel free to submit a PR.
-
-If you need any help with setting up Netlify CMS, you can reach out to the Netlify team in the [Netlify CMS Gitter](https://gitter.im/netlify/netlifycms).
+This is [MIT](LICENSE) with no added caveats, so feel free to use this Jekyll theme on your site without linking back to me or using a disclaimer.
