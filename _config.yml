@@ -1,5 +1,5 @@
 title: Shiran Tips
-description: The long awaited blog on data analysis in Hebrew
+description: "I :heart: Data"
 
 url: shiran.tips
 baseurl: ""
@@ -8,7 +8,7 @@ permalink: blog/:title/
 
 markdown: kramdown
 highlighter: rouge
-plugins: [jekyll-paginate, jekyll-gist]
+plugins: [jekyll-paginate, jekyll-gist, jemoji]
 paginate: 5
 
 navigation:
