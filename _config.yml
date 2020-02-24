@@ -1,7 +1,7 @@
 title: Shiran Tips
 description: The long awaited blog on data analysis in Hebrew
 
-url: shira.tips
+url: shiran.tips
 baseurl: ""
 paginate_path: "blog/page:num/"
 permalink: blog/:title/
